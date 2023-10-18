@@ -19,7 +19,7 @@ class Solution {
             } else { // suppose [6,7,0,*1*,2,4,5]
                 right = mid - 1;
             } // if start index in left half, L will ultimately increment past R so be one index further than mid
-            // if start index in R half, then R index increment to mid-1
+            // if start index in R half, then R index increment to mid - 1
         }
 
         // Binary search over elements on the pivot element's left
